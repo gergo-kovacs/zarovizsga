@@ -5,6 +5,6 @@ CREATE TABLE `dog_types` (
  PRIMARY KEY(id)
 );
 
-insert into dog_types(name, country) values ('Vizsla', 'HUNGARY');
+insert into dog_types(name, country) values ('komondor', 'HUNGARY');
 insert into dog_types(name, country) values ('Doberman', 'GERMANY');
-insert into dog_types(name, country) values ('Kuvasz', 'HUNGARY');
+insert into dog_types(name, country) values ('kuvasz', 'HUNGARY');

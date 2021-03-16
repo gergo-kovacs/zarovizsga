@@ -1,5 +1,5 @@
 package hu.nive.ujratervezes.zarovizsga.kennel;
-/*
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -25,4 +25,4 @@ class BeagleTest {
         assertEquals(6, beagle.getHappiness());
     }
 
-}*/
+}

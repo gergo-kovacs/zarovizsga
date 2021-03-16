@@ -1,6 +1,7 @@
 package hu.nive.ujratervezes.zarovizsga.kennel;
-/*
+
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 class HuskyTest {
     @Test
@@ -24,4 +25,4 @@ class HuskyTest {
         assertEquals(12, husky.getHappiness());
     }
 
-}*/
+}

@@ -32,9 +32,9 @@ class DogTypesTest {
 
     @Test
     void testGetDogsByCountry() {
-        List<String> types = dogTypes.getDogsByCountry("Hungary");
-        assertEquals(2, types.size());
-        assertTrue(types.contains("komondor"));
-        assertTrue(types.contains("kuvasz"));
+        List<String> types = dogTypes.getDogsByCountry("HUNGARY");
+        assertEquals(9, types.size());
+        assertTrue(types.contains("KOMONDOR"));
+        assertTrue(types.contains("KUVASZ"));
     }
 }
